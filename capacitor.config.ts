@@ -16,7 +16,10 @@ const config: CapacitorConfig = {
       keystoreAlias: undefined,
       keystoreAliasPassword: undefined,
       releaseType: undefined,
-    }
+    },
+    allowMixedContent: true,
+    captureInput: true,
+    webContentsDebuggingEnabled: true
   }
 };
 
